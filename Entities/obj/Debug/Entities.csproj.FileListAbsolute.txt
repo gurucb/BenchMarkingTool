@@ -1,0 +1,5 @@
+D:\Tool Codebase\BenchMarkingTool\Entities\bin\Debug\Entities.dll
+D:\Tool Codebase\BenchMarkingTool\Entities\bin\Debug\Entities.pdb
+D:\Tool Codebase\BenchMarkingTool\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Tool Codebase\BenchMarkingTool\Entities\obj\Debug\Entities.dll
+D:\Tool Codebase\BenchMarkingTool\Entities\obj\Debug\Entities.pdb

@@ -1,0 +1,9 @@
+#pragma autorecover
+#pragma classflags("forceupdate")
+#pragma namespace ("\\\\.\\root\\WMI")
+
+#pragma deleteclass("Microsoft_Windows_Server_AppFabric_Caching", nofail)
+#pragma deleteclass("Task_V0", nofail)
+#pragma deleteclass("StringTemplate_V0", nofail)
+#pragma deleteclass("NoParamTemplate_V0", nofail)
+#pragma deleteclass("IntIntIntIntIntIntTemplate_V0", nofail)

@@ -1,0 +1,7 @@
+D:\Tool Codebase\BenchMarkingTool\BasketCreatore\bin\Debug\BasketCreatore.dll
+D:\Tool Codebase\BenchMarkingTool\BasketCreatore\bin\Debug\BasketCreatore.pdb
+D:\Tool Codebase\BenchMarkingTool\BasketCreatore\bin\Debug\Entities.dll
+D:\Tool Codebase\BenchMarkingTool\BasketCreatore\bin\Debug\Entities.pdb
+D:\Tool Codebase\BenchMarkingTool\BasketCreatore\obj\Debug\ResolveAssemblyReference.cache
+D:\Tool Codebase\BenchMarkingTool\BasketCreatore\obj\Debug\BasketCreatore.dll
+D:\Tool Codebase\BenchMarkingTool\BasketCreatore\obj\Debug\BasketCreatore.pdb

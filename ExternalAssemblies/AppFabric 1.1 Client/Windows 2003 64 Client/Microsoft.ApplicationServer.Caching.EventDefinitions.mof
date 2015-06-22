@@ -1,0 +1,346 @@
+#pragma autorecover
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+//
+// ETW Generated File from Manifest
+// MC:  Microsoft_Windows_Server_AppFabric_Caching Event Count 33
+[Dynamic,
+ Description("Microsoft_Windows_Server_AppFabric_Caching") : amended,
+ guid("{a77dcf21-545f-4191-b3d0-c396cf2683f2}"),
+ locale("MS\\0x409")]
+class Microsoft_Windows_Server_AppFabric_Caching : EventTrace
+{
+    [Description ("Levels") : amended,
+        ValueDescriptions{
+            "Abnormal exit or termination",
+            "Severe errors that need logging",
+            "Warnings such as allocation failure",
+            "Includes non-error cases",
+            "Detailed traces from intermediate steps" } : amended,
+         DefineValues{
+            "TRACE_LEVEL_FATAL",
+            "TRACE_LEVEL_ERROR",
+            "TRACE_LEVEL_WARNING"
+            "TRACE_LEVEL_INFORMATION",
+            "TRACE_LEVEL_VERBOSE" },
+        Values{
+            "Fatal",
+            "Error",
+            "Warning",
+            "Information",
+            "Verbose" },
+        ValueMap{
+            "0x1",
+            "0x2",
+            "0x3",
+            "0x4",
+            "0x5" },
+        ValueType("index")
+    ]
+    uint32 Level;
+};
+[Dynamic,
+ Description("Task") : amended,
+ guid("{d406518c-e017-4f4e-93a0-d6aacfc79e77}"),
+ EventVersion(0),
+ DisplayName("Task") : amended
+]
+class Task_V0:Microsoft_Windows_Server_AppFabric_Caching
+{
+
+};
+
+[Dynamic,
+ Description("StringTemplate") : amended,
+ EventType{101, 102, 103, 104, 105, 106, 107, 110, 111, 114, 130, 133, 134, 135},
+ EventTypeName{  "VerboseEvent", "InformationalEvent", "WarningEvent", "ErrorEvent", "CriticalEvent", "ClientSecurityAuthorizationFailed", "ServerSecurityAuthorizationFailed", "ServerServiceCrash", "ServiceCrashUnkownError", "XmlConfigurationReadError", "ServerConfigurationError", "UnhandledException"} : amended
+]
+class StringTemplate_V0:Task_V0
+{
+    [WmiDataId(1),
+     Description("Source") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Source;
+    [WmiDataId(2),
+     Description("Param") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Param;
+};
+
+[Dynamic,
+ Description("LongTemplate") : amended,
+ EventType{123, 124, 125, 126, 128},
+ EventTypeName{  "RequestReceived", "SendForReplication", "ReplicationAcked", "RequestProcessingCompleted", "RequestRetried"} : amended
+]
+class LongTemplate_V0:Task_V0
+{
+    [WmiDataId(1),
+     Description("Source") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Source;
+    [WmiDataId(2),
+     Description("Param") : amended,
+     read]
+     sint64 Param;
+};
+
+[Dynamic,
+ Description("LongLongTemplate") : amended,
+ EventType{127, 129},
+ EventTypeName{  "ResponseSent", "DelayedResponseSent"} : amended
+]
+class LongLongTemplate_V0:Task_V0
+{
+    [WmiDataId(1),
+     Description("Source") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Source;
+    [WmiDataId(2),
+     Description("Param1") : amended,
+     read]
+     sint64 Param1;
+    [WmiDataId(3),
+     Description("Param2") : amended,
+     read]
+     sint64 Param2;
+};
+
+[Dynamic,
+ Description("NoParamTemplate") : amended,
+ EventType{108, 109, 112, 113, 131, 132},
+ EventTypeName{  "ServerReadConfigurationFailed", "ErrorShuttingDownService", "ServiceStart", "Servicestop", "GracefulShutdownStart", "GracefulShutdownStop"} : amended
+]
+class NoParamTemplate_V0:Task_V0
+{
+    [WmiDataId(1),
+     Description("Source") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Source;
+};
+
+[Dynamic,
+ Description("IntIntIntIntIntIntTemplate") : amended,
+ EventType{115, 116, 117, 118},
+ EventTypeName{  "ThrottleStarted", "InThrottledState", "ThrottleStopped", "AvailableMemoryLow"} : amended
+]
+class IntIntIntIntIntIntTemplate_V0:Task_V0
+{
+    [WmiDataId(1),
+     Description("Source") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Source;
+    [WmiDataId(2),
+     Description("Param1") : amended,
+     read]
+     sint32 Param1;
+    [WmiDataId(3),
+     Description("Param2") : amended,
+     read]
+     sint32 Param2;
+    [WmiDataId(4),
+     Description("Param3") : amended,
+     read]
+     sint32 Param3;
+    [WmiDataId(5),
+     Description("Param4") : amended,
+     read]
+     sint32 Param4;
+    [WmiDataId(6),
+     Description("Param5") : amended,
+     read]
+     sint32 Param5;
+    [WmiDataId(7),
+     Description("Param6") : amended,
+     read]
+     sint32 Param6;
+};
+
+[Dynamic,
+ Description("StringLongLongLongTemplate") : amended,
+ EventType(121),
+ EventTypeName(  "PoolGrowth") : amended
+]
+class StringLongLongLongTemplate_V0:Task_V0
+{
+    [WmiDataId(1),
+     Description("Source") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Source;
+    [WmiDataId(2),
+     Description("Param1") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Param1;
+    [WmiDataId(3),
+     Description("Param2") : amended,
+     read]
+     sint64 Param2;
+    [WmiDataId(4),
+     Description("Param3") : amended,
+     read]
+     sint64 Param3;
+    [WmiDataId(5),
+     Description("Param4") : amended,
+     read]
+     sint64 Param4;
+};
+
+[Dynamic,
+ Description("String8Int5LongTemplate") : amended,
+ EventType(119),
+ EventTypeName(  "PoolThrottleStarted") : amended
+]
+class String8Int5LongTemplate_V0:Task_V0
+{
+    [WmiDataId(1),
+     Description("Source") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Source;
+    [WmiDataId(2),
+     Description("Param1") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Param1;
+    [WmiDataId(3),
+     Description("Param2") : amended,
+     read]
+     sint32 Param2;
+    [WmiDataId(4),
+     Description("Param3") : amended,
+     read]
+     sint32 Param3;
+    [WmiDataId(5),
+     Description("Param4") : amended,
+     read]
+     sint32 Param4;
+    [WmiDataId(6),
+     Description("Param5") : amended,
+     read]
+     sint32 Param5;
+    [WmiDataId(7),
+     Description("Param6") : amended,
+     read]
+     sint32 Param6;
+    [WmiDataId(8),
+     Description("Param7") : amended,
+     read]
+     sint32 Param7;
+    [WmiDataId(9),
+     Description("Param8") : amended,
+     read]
+     sint32 Param8;
+    [WmiDataId(10),
+     Description("Param9") : amended,
+     read]
+     sint32 Param9;
+    [WmiDataId(11),
+     Description("Param10") : amended,
+     read]
+     sint64 Param10;
+    [WmiDataId(12),
+     Description("Param11") : amended,
+     read]
+     sint64 Param11;
+    [WmiDataId(13),
+     Description("Param12") : amended,
+     read]
+     sint64 Param12;
+    [WmiDataId(14),
+     Description("Param13") : amended,
+     read]
+     sint64 Param13;
+    [WmiDataId(15),
+     Description("Param14") : amended,
+     read]
+     sint64 Param14;
+};
+
+[Dynamic,
+ Description("8Int6LongTemplate") : amended,
+ EventType{120, 122},
+ EventTypeName{  "PoolThrottleStopped", "InPoolThrottling"} : amended
+]
+class 8Int6LongTemplate_V0:Task_V0
+{
+    [WmiDataId(1),
+     Description("Source") : amended,
+     StringTermination("NullTerminated"),
+     format("w"),
+     read]
+     string Source;
+    [WmiDataId(2),
+     Description("Param1") : amended,
+     read]
+     sint32 Param1;
+    [WmiDataId(3),
+     Description("Param2") : amended,
+     read]
+     sint32 Param2;
+    [WmiDataId(4),
+     Description("Param3") : amended,
+     read]
+     sint32 Param3;
+    [WmiDataId(5),
+     Description("Param4") : amended,
+     read]
+     sint32 Param4;
+    [WmiDataId(6),
+     Description("Param5") : amended,
+     read]
+     sint32 Param5;
+    [WmiDataId(7),
+     Description("Param6") : amended,
+     read]
+     sint32 Param6;
+    [WmiDataId(8),
+     Description("Param7") : amended,
+     read]
+     sint32 Param7;
+    [WmiDataId(9),
+     Description("Param8") : amended,
+     read]
+     sint32 Param8;
+    [WmiDataId(10),
+     Description("Param9") : amended,
+     read]
+     sint64 Param9;
+    [WmiDataId(11),
+     Description("Param10") : amended,
+     read]
+     sint64 Param10;
+    [WmiDataId(12),
+     Description("Param11") : amended,
+     read]
+     sint64 Param11;
+    [WmiDataId(13),
+     Description("Param12") : amended,
+     read]
+     sint64 Param12;
+    [WmiDataId(14),
+     Description("Param13") : amended,
+     read]
+     sint64 Param13;
+    [WmiDataId(15),
+     Description("Param14") : amended,
+     read]
+     sint64 Param14;
+};
+

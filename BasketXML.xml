@@ -1,0 +1,64 @@
+<root>
+  <Basket>
+    <BasketID>403535</BasketID>
+    <CustomerID>2300276978</CustomerID>
+    <BranchID>3213</BranchID>
+    <Name>My Basket</Name>
+    <IsActive>1</IsActive>
+    <IsBeingAmended>0</IsBeingAmended>
+    <LastProductIDAdded>260346509</LastProductIDAdded>
+    <LastUpdatedDateTime>2015-03-11T13:53:35.620</LastUpdatedDateTime>
+    <RequiresRecalculation>0</RequiresRecalculation>
+    <GuidePrice>26.0000</GuidePrice>
+    <AmendModeContractID>-1</AmendModeContractID>
+    <AmendCutOffTime>1900-01-01T00:00:00</AmendCutOffTime>
+    <ApplyStaffDiscount>0</ApplyStaffDiscount>
+    <PaymentCardID>-1</PaymentCardID>
+    <ECouponClubcardPoints>0</ECouponClubcardPoints>
+    <CreatedDateTime>2014-08-21T08:20:23.463</CreatedDateTime>
+    <IsDefault>1</IsDefault>
+    <RewardXML>
+      <Rewards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RewardEntity Amount="10" Description="Extra 10 CC ponits on 5 Apple products" Ean="7547546816482" ProductIDs="257852974" PromotionId="S00010263" PromotionType="1" RewardType="2" TimesTriggered="1" TriggerType="3" />
+        <RewardEntity Amount="0" Description="SAVE 1.00 Was 7.00 Now 6.00" ProductIDs="273824391" PromotionId="A31670146" PromotionType="1" RewardType="1" TimesTriggered="1" TriggerType="3" />
+      </Rewards>
+    </RewardXML>
+    <PaymentItemXML>
+      <ArrayOfPaymentItemEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    </PaymentItemXML>
+    <ChargeXML>
+      <Charges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    </ChargeXML>
+    <DeliveryLocationId>8007</DeliveryLocationId>
+    <checkoutStatus>0</checkoutStatus>
+    <OrderID>0</OrderID>
+  </Basket>
+  <BasketItem>
+      <BasketID>403535</BasketID>
+      <ProductID>253069047</ProductID>
+      <BaseProductID>56450510</BaseProductID>
+      <ProductInStorePrice>3.0000</ProductInStorePrice>
+      <ProductInStoreQuantity>0.00</ProductInStoreQuantity>
+      <ProductInStoreTotalPrice>0.4650</ProductInStoreTotalPrice>
+      <ChoiceQuantity>1</ChoiceQuantity>
+      <ChoiceWeight>0.155</ChoiceWeight>
+      <AddedDateTime>2014-09-03T13:24:14.327</AddedDateTime>
+      <ProductAverageWeight>0.155</ProductAverageWeight>
+      <ProductMaxWeight>0.000</ProductMaxWeight>
+      <IsNotRanged>0</IsNotRanged>
+      <IsSelectedByQuantity>1</IsSelectedByQuantity>
+      <MeasureTypeID>2</MeasureTypeID>
+      <ProductTypeID>1</ProductTypeID>
+      <UnitSaleTypeID>3</UnitSaleTypeID>
+      <IsRestrictedDelivery>0</IsRestrictedDelivery>
+      <CreatedDateTime>2014-09-03T13:24:14.483</CreatedDateTime>
+      <UpdatedDateTime>2014-10-06T10:11:38.797</UpdatedDateTime>
+      <ChoiceQuantityOriginal>0</ChoiceQuantityOriginal>
+      <ChoiceWeightOriginal>0.000</ChoiceWeightOriginal>
+      <ProductDescription>Tesco Finest Apples Loose Class 1</ProductDescription>
+      <ProductWeight>0.050</ProductWeight>
+      <ProductVolume>0.340</ProductVolume>
+      <IsNewlyAdded>1</IsNewlyAdded>
+      <ChargeProductTypeId>0</ChargeProductTypeId>
+  </BasketItem>
+</root>

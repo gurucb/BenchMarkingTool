@@ -1,0 +1,9 @@
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\obj\Debug\ResolveAssemblyReference.cache
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\bin\Debug\SQLBasketActions.dll
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\bin\Debug\SQLBasketActions.pdb
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\bin\Debug\BasketActions.dll
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\bin\Debug\Entities.dll
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\bin\Debug\BasketActions.pdb
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\bin\Debug\Entities.pdb
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\obj\Debug\SQLBasketActions.dll
+D:\Tool Codebase\BenchMarkingTool\SQLBasketActions\obj\Debug\SQLBasketActions.pdb
